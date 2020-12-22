@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDA3030257D282500064489 /* XfunctionzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA302F257D282500064489 /* XfunctionzApp.swift */; };
+		CFDA3032257D282500064489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA3031257D282500064489 /* ContentView.swift */; };
+		CFDA3034257D282600064489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA3033257D282600064489 /* Assets.xcassets */; };
+		CFDA3037257D282600064489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA3036257D282600064489 /* Preview Assets.xcassets */; };
+		CFDA3043257D282600064489 /* XfunctionzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA3042257D282600064489 /* XfunctionzTests.swift */; };
+		CFDA3068257D288400064489 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA3067257D288400064489 /* Cocoa.framework */; };
+		CFDA306A257D288400064489 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA3069257D288400064489 /* XcodeKit.framework */; };
+		CFDA306D257D288400064489 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA306C257D288400064489 /* SourceEditorExtension.swift */; };
+		CFDA306F257D288400064489 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA306E257D288400064489 /* SourceEditorCommand.swift */; };
+		CFDA3074257D288400064489 /* XfunctionzExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CFDA3065257D288400064489 /* XfunctionzExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CFDA308B257D292A00064489 /* ScodeSourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA3082257D292A00064489 /* ScodeSourceKit.framework */; };
+		CFDA3092257D292A00064489 /* ScodeSourceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA3091257D292A00064489 /* ScodeSourceKitTests.swift */; };
+		CFDA3094257D292A00064489 /* ScodeSourceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA3084257D292A00064489 /* ScodeSourceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA3097257D292A00064489 /* ScodeSourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA3082257D292A00064489 /* ScodeSourceKit.framework */; };
+		CFDA3098257D292A00064489 /* ScodeSourceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA3082257D292A00064489 /* ScodeSourceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDA303F257D282600064489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA3024257D282500064489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA302B257D282500064489;
+			remoteInfo = Xfunctionz;
+		};
+		CFDA3072257D288400064489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA3024257D282500064489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA3064257D288400064489;
+			remoteInfo = XfunctionzExtension;
+		};
+		CFDA308C257D292A00064489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA3024257D282500064489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA3081257D292A00064489;
+			remoteInfo = ScodeSourceKit;
+		};
+		CFDA308E257D292A00064489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA3024257D282500064489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA302B257D282500064489;
+			remoteInfo = Xfunctionz;
+		};
+		CFDA3095257D292A00064489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA3024257D282500064489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA3081257D292A00064489;
+			remoteInfo = ScodeSourceKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFDA3075257D288400064489 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CFDA3074257D288400064489 /* XfunctionzExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA309C257D292A00064489 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFDA3098257D292A00064489 /* ScodeSourceKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFDA302C257D282500064489 /* Xfunctionz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xfunctionz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA302F257D282500064489 /* XfunctionzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XfunctionzApp.swift; sourceTree = "<group>"; };
+		CFDA3031257D282500064489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFDA3033257D282600064489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDA3036257D282600064489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDA3038257D282600064489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA3039257D282600064489 /* Xfunctionz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xfunctionz.entitlements; sourceTree = "<group>"; };
+		CFDA303E257D282600064489 /* XfunctionzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XfunctionzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA3042257D282600064489 /* XfunctionzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XfunctionzTests.swift; sourceTree = "<group>"; };
+		CFDA3044257D282600064489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA3065257D288400064489 /* XfunctionzExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XfunctionzExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA3067257D288400064489 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFDA3069257D288400064489 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFDA306C257D288400064489 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		CFDA306E257D288400064489 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		CFDA3070257D288400064489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA3071257D288400064489 /* XfunctionzExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XfunctionzExtension.entitlements; sourceTree = "<group>"; };
+		CFDA3082257D292A00064489 /* ScodeSourceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScodeSourceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA3084257D292A00064489 /* ScodeSourceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScodeSourceKit.h; sourceTree = "<group>"; };
+		CFDA3085257D292A00064489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA308A257D292A00064489 /* ScodeSourceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScodeSourceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA3091257D292A00064489 /* ScodeSourceKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScodeSourceKitTests.swift; sourceTree = "<group>"; };
+		CFDA3093257D292A00064489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDA3029257D282500064489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3097257D292A00064489 /* ScodeSourceKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA303B257D282600064489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3062257D288400064489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3068257D288400064489 /* Cocoa.framework in Frameworks */,
+				CFDA306A257D288400064489 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA307F257D292A00064489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3087257D292A00064489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA308B257D292A00064489 /* ScodeSourceKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDA3023257D282500064489 = {
+			isa = PBXGroup;
+			children = (
+				CFDA302E257D282500064489 /* Xfunctionz */,
+				CFDA3041257D282600064489 /* XfunctionzTests */,
+				CFDA306B257D288400064489 /* XfunctionzExtension */,
+				CFDA3083257D292A00064489 /* ScodeSourceKit */,
+				CFDA3090257D292A00064489 /* ScodeSourceKitTests */,
+				CFDA3066257D288400064489 /* Frameworks */,
+				CFDA302D257D282500064489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDA302D257D282500064489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA302C257D282500064489 /* Xfunctionz.app */,
+				CFDA303E257D282600064489 /* XfunctionzTests.xctest */,
+				CFDA3065257D288400064489 /* XfunctionzExtension.appex */,
+				CFDA3082257D292A00064489 /* ScodeSourceKit.framework */,
+				CFDA308A257D292A00064489 /* ScodeSourceKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDA302E257D282500064489 /* Xfunctionz */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA302F257D282500064489 /* XfunctionzApp.swift */,
+				CFDA3031257D282500064489 /* ContentView.swift */,
+				CFDA3033257D282600064489 /* Assets.xcassets */,
+				CFDA3038257D282600064489 /* Info.plist */,
+				CFDA3039257D282600064489 /* Xfunctionz.entitlements */,
+				CFDA3035257D282600064489 /* Preview Content */,
+			);
+			path = Xfunctionz;
+			sourceTree = "<group>";
+		};
+		CFDA3035257D282600064489 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA3036257D282600064489 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFDA3041257D282600064489 /* XfunctionzTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA3042257D282600064489 /* XfunctionzTests.swift */,
+				CFDA3044257D282600064489 /* Info.plist */,
+			);
+			path = XfunctionzTests;
+			sourceTree = "<group>";
+		};
+		CFDA3066257D288400064489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA3067257D288400064489 /* Cocoa.framework */,
+				CFDA3069257D288400064489 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFDA306B257D288400064489 /* XfunctionzExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA306E257D288400064489 /* SourceEditorCommand.swift */,
+				CFDA306C257D288400064489 /* SourceEditorExtension.swift */,
+				CFDA3070257D288400064489 /* Info.plist */,
+				CFDA3071257D288400064489 /* XfunctionzExtension.entitlements */,
+			);
+			path = XfunctionzExtension;
+			sourceTree = "<group>";
+		};
+		CFDA3083257D292A00064489 /* ScodeSourceKit */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA3084257D292A00064489 /* ScodeSourceKit.h */,
+				CFDA3085257D292A00064489 /* Info.plist */,
+			);
+			path = ScodeSourceKit;
+			sourceTree = "<group>";
+		};
+		CFDA3090257D292A00064489 /* ScodeSourceKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA3091257D292A00064489 /* ScodeSourceKitTests.swift */,
+				CFDA3093257D292A00064489 /* Info.plist */,
+			);
+			path = ScodeSourceKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFDA307D257D292A00064489 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3094257D292A00064489 /* ScodeSourceKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFDA302B257D282500064489 /* Xfunctionz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA3052257D282600064489 /* Build configuration list for PBXNativeTarget "Xfunctionz" */;
+			buildPhases = (
+				CFDA3028257D282500064489 /* Sources */,
+				CFDA3029257D282500064489 /* Frameworks */,
+				CFDA302A257D282500064489 /* Resources */,
+				CFDA3075257D288400064489 /* Embed App Extensions */,
+				CFDA309C257D292A00064489 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA3073257D288400064489 /* PBXTargetDependency */,
+				CFDA3096257D292A00064489 /* PBXTargetDependency */,
+			);
+			name = Xfunctionz;
+			productName = Xfunctionz;
+			productReference = CFDA302C257D282500064489 /* Xfunctionz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDA303D257D282600064489 /* XfunctionzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA3055257D282600064489 /* Build configuration list for PBXNativeTarget "XfunctionzTests" */;
+			buildPhases = (
+				CFDA303A257D282600064489 /* Sources */,
+				CFDA303B257D282600064489 /* Frameworks */,
+				CFDA303C257D282600064489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA3040257D282600064489 /* PBXTargetDependency */,
+			);
+			name = XfunctionzTests;
+			productName = XfunctionzTests;
+			productReference = CFDA303E257D282600064489 /* XfunctionzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA3064257D288400064489 /* XfunctionzExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA3078257D288400064489 /* Build configuration list for PBXNativeTarget "XfunctionzExtension" */;
+			buildPhases = (
+				CFDA3061257D288400064489 /* Sources */,
+				CFDA3062257D288400064489 /* Frameworks */,
+				CFDA3063257D288400064489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XfunctionzExtension;
+			productName = XfunctionzExtension;
+			productReference = CFDA3065257D288400064489 /* XfunctionzExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+		CFDA3081257D292A00064489 /* ScodeSourceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA3099257D292A00064489 /* Build configuration list for PBXNativeTarget "ScodeSourceKit" */;
+			buildPhases = (
+				CFDA307D257D292A00064489 /* Headers */,
+				CFDA307E257D292A00064489 /* Sources */,
+				CFDA307F257D292A00064489 /* Frameworks */,
+				CFDA3080257D292A00064489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScodeSourceKit;
+			productName = ScodeSourceKit;
+			productReference = CFDA3082257D292A00064489 /* ScodeSourceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA3089257D292A00064489 /* ScodeSourceKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA309D257D292A00064489 /* Build configuration list for PBXNativeTarget "ScodeSourceKitTests" */;
+			buildPhases = (
+				CFDA3086257D292A00064489 /* Sources */,
+				CFDA3087257D292A00064489 /* Frameworks */,
+				CFDA3088257D292A00064489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA308D257D292A00064489 /* PBXTargetDependency */,
+				CFDA308F257D292A00064489 /* PBXTargetDependency */,
+			);
+			name = ScodeSourceKitTests;
+			productName = ScodeSourceKitTests;
+			productReference = CFDA308A257D292A00064489 /* ScodeSourceKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDA3024257D282500064489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CFDA302B257D282500064489 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CFDA303D257D282600064489 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CFDA302B257D282500064489;
+					};
+					CFDA3064257D288400064489 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CFDA3081257D292A00064489 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CFDA3089257D292A00064489 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CFDA302B257D282500064489;
+					};
+				};
+			};
+			buildConfigurationList = CFDA3027257D282500064489 /* Build configuration list for PBXProject "Xfunctionz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDA3023257D282500064489;
+			productRefGroup = CFDA302D257D282500064489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDA302B257D282500064489 /* Xfunctionz */,
+				CFDA3064257D288400064489 /* XfunctionzExtension */,
+				CFDA3081257D292A00064489 /* ScodeSourceKit */,
+				CFDA303D257D282600064489 /* XfunctionzTests */,
+				CFDA3089257D292A00064489 /* ScodeSourceKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDA302A257D282500064489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3037257D282600064489 /* Preview Assets.xcassets in Resources */,
+				CFDA3034257D282600064489 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA303C257D282600064489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3063257D288400064489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3080257D292A00064489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3088257D292A00064489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDA3028257D282500064489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3032257D282500064489 /* ContentView.swift in Sources */,
+				CFDA3030257D282500064489 /* XfunctionzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA303A257D282600064489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3043257D282600064489 /* XfunctionzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3061257D288400064489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA306D257D288400064489 /* SourceEditorExtension.swift in Sources */,
+				CFDA306F257D288400064489 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA307E257D292A00064489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA3086257D292A00064489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA3092257D292A00064489 /* ScodeSourceKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDA3040257D282600064489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA302B257D282500064489 /* Xfunctionz */;
+			targetProxy = CFDA303F257D282600064489 /* PBXContainerItemProxy */;
+		};
+		CFDA3073257D288400064489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA3064257D288400064489 /* XfunctionzExtension */;
+			targetProxy = CFDA3072257D288400064489 /* PBXContainerItemProxy */;
+		};
+		CFDA308D257D292A00064489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA3081257D292A00064489 /* ScodeSourceKit */;
+			targetProxy = CFDA308C257D292A00064489 /* PBXContainerItemProxy */;
+		};
+		CFDA308F257D292A00064489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA302B257D282500064489 /* Xfunctionz */;
+			targetProxy = CFDA308E257D292A00064489 /* PBXContainerItemProxy */;
+		};
+		CFDA3096257D292A00064489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA3081257D292A00064489 /* ScodeSourceKit */;
+			targetProxy = CFDA3095257D292A00064489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFDA3050257D282600064489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFDA3051257D282600064489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFDA3053257D282600064489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Xfunctionz/Xfunctionz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Xfunctionz/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Xfunctionz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.Xfunctionz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFDA3054257D282600064489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Xfunctionz/Xfunctionz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Xfunctionz/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Xfunctionz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.Xfunctionz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFDA3056257D282600064489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				INFOPLIST_FILE = XfunctionzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.XfunctionzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xfunctionz.app/Contents/MacOS/Xfunctionz";
+			};
+			name = Debug;
+		};
+		CFDA3057257D282600064489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				INFOPLIST_FILE = XfunctionzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.XfunctionzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xfunctionz.app/Contents/MacOS/Xfunctionz";
+			};
+			name = Release;
+		};
+		CFDA3076257D288400064489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XfunctionzExtension/XfunctionzExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XfunctionzExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.Xfunctionz.XfunctionzExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFDA3077257D288400064489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XfunctionzExtension/XfunctionzExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XfunctionzExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.Xfunctionz.XfunctionzExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFDA309A257D292A00064489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ScodeSourceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.ScodeSourceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA309B257D292A00064489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ScodeSourceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.ScodeSourceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA309E257D292A00064489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				INFOPLIST_FILE = ScodeSourceKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.ScodeSourceKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xfunctionz.app/Contents/MacOS/Xfunctionz";
+			};
+			name = Debug;
+		};
+		CFDA309F257D292A00064489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				INFOPLIST_FILE = ScodeSourceKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.ScodeSourceKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xfunctionz.app/Contents/MacOS/Xfunctionz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDA3027257D282500064489 /* Build configuration list for PBXProject "Xfunctionz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA3050257D282600064489 /* Debug */,
+				CFDA3051257D282600064489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA3052257D282600064489 /* Build configuration list for PBXNativeTarget "Xfunctionz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA3053257D282600064489 /* Debug */,
+				CFDA3054257D282600064489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA3055257D282600064489 /* Build configuration list for PBXNativeTarget "XfunctionzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA3056257D282600064489 /* Debug */,
+				CFDA3057257D282600064489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA3078257D288400064489 /* Build configuration list for PBXNativeTarget "XfunctionzExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA3076257D288400064489 /* Debug */,
+				CFDA3077257D288400064489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA3099257D292A00064489 /* Build configuration list for PBXNativeTarget "ScodeSourceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA309A257D292A00064489 /* Debug */,
+				CFDA309B257D292A00064489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA309D257D292A00064489 /* Build configuration list for PBXNativeTarget "ScodeSourceKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA309E257D292A00064489 /* Debug */,
+				CFDA309F257D292A00064489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFDA3024257D282500064489 /* Project object */;
+}
